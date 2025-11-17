@@ -1,4 +1,7 @@
 import streamlit as st
+st.write("🔍 DEBUG: secrets keys =", list(st.secrets.keys()))
+
+import streamlit as st
 from googleapiclient.discovery import build
 
 # -----------------------------
